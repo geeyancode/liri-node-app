@@ -1,0 +1,27 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "The assignment is about creating a LIRI (Language Interpretation and Recognition Interface). It is a command line node app that requires parameters in and responds with some data.     The API are used for this assignment:     1. Node Spotify API     2. OMDB API     3. Bands In Town",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geeyancode/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geeyancode/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/geeyancode/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bandsintown": "^1.0.1",
+    "dotenv": "^7.0.0",
+    "node-spotify-api": "^1.0.7"
+  },
+  "devDependencies": {}
+}
